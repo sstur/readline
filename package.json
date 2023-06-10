@@ -1,6 +1,6 @@
 {
   "name": "@jot/readline",
-  "version": "1.9.0",
+  "version": "1.11.0",
   "type": "module",
   "description": "Read user input from the command line",
   "main": "lib/readline.cjs",
