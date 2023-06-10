@@ -8,6 +8,9 @@
     ".": {
       "require": "./lib/readline.cjs",
       "import": "./lib/readline.mjs"
+    },
+    "./sync": {
+      "import": "./lib/sync/readline.mjs"
     }
   },
   "scripts": {
