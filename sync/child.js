@@ -1,4 +1,4 @@
-import { createInterface } from 'readline';
+const { createInterface } = require('readline');
 
 const args = process.argv.slice(2);
 const prompt = args[0] ?? '';

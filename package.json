@@ -1,17 +1,11 @@
 {
   "name": "@jot/readline",
   "version": "1.11.0",
-  "type": "module",
   "description": "Read user input from the command line",
-  "main": "lib/readline.cjs",
+  "main": "./readline.js",
   "exports": {
-    ".": {
-      "require": "./lib/readline.cjs",
-      "import": "./lib/readline.mjs"
-    },
-    "./sync": {
-      "import": "./lib/sync/readline.mjs"
-    }
+    ".": "./readline.js",
+    "./sync": "./sync/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
