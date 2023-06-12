@@ -1,6 +1,6 @@
 {
   "name": "@jot/readline",
-  "version": "1.11.0",
+  "version": "1.13.0",
   "description": "Read user input from the command line",
   "main": "./readline.js",
   "exports": {
