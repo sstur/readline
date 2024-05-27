@@ -33,7 +33,7 @@ if (require.main === module) {
     input: process.stdin,
     output: process.stdout,
   });
-  rl.question(prompt, (answer) => {
+  rl.question(prompt.trim() + ' ', (answer) => {
     rl.close();
     process.stderr.write(JSON.stringify({ answer }));
   });
