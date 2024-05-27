@@ -4,6 +4,16 @@
   "description": "Read user input from the command line",
   "main": "index.js",
   "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./sync": {
+      "types": "./sync/index.d.ts",
+      "default": "./sync/index.js"
+    }
+  },
   "scripts": {
     "typecheck": "tsc --noEmit -p .",
     "lint": "eslint --max-warnings 0 .",
